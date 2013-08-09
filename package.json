@@ -1,0 +1,21 @@
+{
+  "name": "getcpids",
+  "version": "0.0.1",
+  "description": "A node.js binding to successive calls to getpgid() syscall to determine child processes of the a parent process given the parent process ID.",
+  "main": "lib/getcpids.js",
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": git://github.com/pmgration-node-getcpids.git"
+  },
+  "keywords": [
+    "getcpids",
+    "child process",
+    "get child process id"
+  ],
+  "author": "Paul Gration <pmgration@gmail.com>",
+  "readmeFilename": "README.md",
+  "gypfile": true
+}
