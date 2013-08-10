@@ -1,6 +1,6 @@
 {
   "name": "getcpids",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A node.js binding to successive calls to getpgid() syscall to determine child processes of the a parent process given the parent process ID.",
   "main": "lib/getcpids.js",
   "scripts": {
